@@ -125,68 +125,68 @@ The sorted array list:
 
 ## Command Prompt
 	
-	*	Change to workspace and project directory
+1.	Change to workspace and project directory
 	
-	*	Verify on dev branch
-	```java
-	git checkout dev
-	```
-	```
-	H:\Documents\School\Fall 2015\Computer Science 1\Workspace\COMSC_1033_Sort_Number_Arrays>git checkout dev
-	M       .classpath
-	M       bin/Sort_Number_Arrays.class
-	M       src/Sort_Number_Arrays.java
-	Already on 'dev'
-	Your branch is up-to-date with 'origin/dev'.
-	```
+2.	Verify on dev branch
+```java
+git checkout dev
+```
+```
+H:\Documents\School\Fall 2015\Computer Science 1\Workspace\COMSC_1033_Sort_Number_Arrays>git checkout dev
+M       .classpath
+M       bin/Sort_Number_Arrays.class
+M       src/Sort_Number_Arrays.java
+Already on 'dev'
+Your branch is up-to-date with 'origin/dev'.
+```
 	
-	*	Add all files to new commit
+3.	Add all files to new commit
 	
-	```java
-	git add .
-	```
-	```
-	H:\Documents\School\Fall 2015\Computer Science 1\Workspace\COMSC_1033_Sort_Number_Arrays>git add .
-	```
+```java
+git add .
+```
+```
+H:\Documents\School\Fall 2015\Computer Science 1\Workspace\COMSC_1033_Sort_Number_Arrays>git add .
+```
 	
-	*	Git commit changes
-	```java
-	git commit -m "100% stable code. Ready for merge to master branch
-	```
-	```
-	H:\Documents\School\Fall 2015\Computer Science 1\Workspace\COMSC_1033_Sort_Number_Arrays>git commit -m "100% stable code. Ready for merge to master branch"
-	[dev 4319155] 100% stable code. Ready for merge to master branch
-	 4 files changed, 63 insertions(+), 45 deletions(-)
-	 create mode 100644 .settings/org.eclipse.jdt.core.prefs
-	 rewrite bin/Sort_Number_Arrays.class (81%)
-	 rewrite src/Sort_Number_Arrays.java (84%)
-	```
+4.	Git commit changes
+```java
+git commit -m "100% stable code. Ready for merge to master branch
+```
+```
+H:\Documents\School\Fall 2015\Computer Science 1\Workspace\COMSC_1033_Sort_Number_Arrays>git commit -m "100% stable code. Ready for merge to master branch"
+[dev 4319155] 100% stable code. Ready for merge to master branch
+ 4 files changed, 63 insertions(+), 45 deletions(-)
+ create mode 100644 .settings/org.eclipse.jdt.core.prefs
+ rewrite bin/Sort_Number_Arrays.class (81%)
+ rewrite src/Sort_Number_Arrays.java (84%)
+```
 	
-	*	Change to master to merge in code
-	```java
-	git checkout master
-	```
-	``` 
-	H:\Documents\School\Fall 2015\Computer Science 1\Workspace\COMSC_1033_Sort_Number_Arrays>git checkout master
-	Switched to branch 'master'
-	Your branch is up-to-date with 'origin/master'.
-	```
+5.	Change to master to merge in code
+```java
+git checkout master
+```
+``` 
+H:\Documents\School\Fall 2015\Computer Science 1\Workspace\COMSC_1033_Sort_Number_Arrays>git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+```
 	
-	*	Merge changes to master branch
-	```java
-	git merge dev
-	```
-	```
-	H:\Documents\School\Fall 2015\Computer Science 1\Workspace\COMSC_1033_Sort_Number_Arrays>git merge dev
-	Updating b09ec4a..4319155
-	Fast-forward
-	 .classpath                           |   2 +-
-	 .settings/org.eclipse.jdt.core.prefs |   7 ++++
-	 bin/Sort_Number_Arrays.class         | Bin 527 -> 1725 bytes
-	 src/Sort_Number_Arrays.java          |  79 ++++++++++++++++++++---------------
-	 4 files changed, 53 insertions(+), 35 deletions(-)
-	 create mode 100644 .settings/org.eclipse.jdt.core.prefs
-	 ```
+6.	Merge changes to master branch
+```java
+git merge dev
+```
+```
+H:\Documents\School\Fall 2015\Computer Science 1\Workspace\COMSC_1033_Sort_Number_Arrays>git merge dev
+Updating b09ec4a..4319155
+Fast-forward
+ .classpath                           |   2 +-
+ .settings/org.eclipse.jdt.core.prefs |   7 ++++
+ bin/Sort_Number_Arrays.class         | Bin 527 -> 1725 bytes
+ src/Sort_Number_Arrays.java          |  79 ++++++++++++++++++++---------------
+ 4 files changed, 53 insertions(+), 35 deletions(-)
+ create mode 100644 .settings/org.eclipse.jdt.core.prefs
+ ```
 	 
 ## Summary
 	This lesson was great for multiple inline storage into arrays and usage of arrays in 
