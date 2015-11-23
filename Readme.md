@@ -159,7 +159,7 @@ H:\Documents\School\Fall 2015\Computer Science 1\Workspace\COMSC_1033_Sort_Numbe
  rewrite bin/Sort_Number_Arrays.class (81%)
  rewrite src/Sort_Number_Arrays.java (84%)
 ```
-5.	Change to master to merge in code
+*	Change to master to merge in code
 ```java
 git checkout master
 ```
