@@ -139,7 +139,6 @@ M       src/Sort_Number_Arrays.java
 Already on 'dev'
 Your branch is up-to-date with 'origin/dev'.
 ```
-
 3.	Add all files to new commit
 	
 ```java
@@ -148,7 +147,6 @@ git add .
 ```
 H:\Documents\School\Fall 2015\Computer Science 1\Workspace\COMSC_1033_Sort_Number_Arrays>git add .
 ```
-
 4.	Git commit changes
 ```java
 git commit -m "100% stable code. Ready for merge to master branch
@@ -161,7 +159,6 @@ H:\Documents\School\Fall 2015\Computer Science 1\Workspace\COMSC_1033_Sort_Numbe
  rewrite bin/Sort_Number_Arrays.class (81%)
  rewrite src/Sort_Number_Arrays.java (84%)
 ```
-
 5.	Change to master to merge in code
 ```java
 git checkout master
@@ -171,7 +168,6 @@ H:\Documents\School\Fall 2015\Computer Science 1\Workspace\COMSC_1033_Sort_Numbe
 Switched to branch 'master'
 Your branch is up-to-date with 'origin/master'.
 ```
-
 6.	Merge changes to master branch
 ```java
 git merge dev
