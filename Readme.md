@@ -124,10 +124,11 @@ The sorted array list:
 99
 
 ## Command Prompt
+	
 	*	Change to workspace and project directory
 	
 	*	Verify on dev branch
-	```
+	```java
 	git checkout dev
 	```
 	```
@@ -141,7 +142,7 @@ The sorted array list:
 	
 	*	Add all files to new commit
 	
-	```
+	```java
 	git add .
 	```
 	```
@@ -149,7 +150,7 @@ The sorted array list:
 	```
 	
 	*	Git commit changes
-	```
+	```java
 	git commit -m "100% stable code. Ready for merge to master branch
 	```
 	```
@@ -162,7 +163,7 @@ The sorted array list:
 	```
 	
 	*	Change to master to merge in code
-	```
+	```java
 	git checkout master
 	```
 	``` 
@@ -172,7 +173,7 @@ The sorted array list:
 	```
 	
 	*	Merge changes to master branch
-	```
+	```java
 	git merge dev
 	```
 	```
